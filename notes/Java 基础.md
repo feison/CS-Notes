@@ -1141,7 +1141,7 @@ System.out.println(InterfaceExample.x);
 
 使用接口：
 
-- 需要让不相关的类都实现一个方法，例如不相关的类都可以实现 Compareable 接口中的 compareTo() 方法；
+- 需要让不相关的类都实现一个方法，例如不相关的类都可以实现 Comparable 接口中的 compareTo() 方法；
 - 需要使用多重继承。
 
 使用抽象类：
@@ -1432,9 +1432,8 @@ Java 注解是附加在代码中的一些元信息，用于一些工具在编译
 
 ## JRE or JDK
 
-- JRE：Java Runtime Environment，java运行环境的简称，为java的运行提供了所需的环境。主要包括了JVM的标准实现和一些java基本类库。
-- JDK：Java Development Kit，java开发工具包，提供了java的开发及运行环境。JDK是java开发的核心，集成了JRE以及一些其他的工具，比如编译 java 源码的编译器 javac等。
-- 因此可以这样认为：JDK>JRE>JVM，JRE支持了java程序的运行，而JDK则同时支持了java程序的开发。
+- JRE：Java Runtime Environment，Java 运行环境的简称，为 Java 的运行提供了所需的环境。它是一个 JVM 程序，主要包括了 JVM 的标准实现和一些 Java 基本类库。
+- JDK：Java Development Kit，Java 开发工具包，提供了 Java 的开发及运行环境。JDK 是 Java 开发的核心，集成了 JRE 以及一些其它的工具，比如编译 Java 源码的编译器 javac 等。
 
 # 参考资料
 
